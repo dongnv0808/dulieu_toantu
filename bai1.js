@@ -10,7 +10,9 @@ let tbcong = (vatly + hoahoc + sinhhoc)/3;
 let tong = vatly + hoahoc + sinhhoc;
 
 document.write("Vat ly:" +inputVatly);
+document.write('<br>')
 document.write("Hoa hoc:" +inputHoahoc);
+document.write('<br>')
 document.write("Sinh hoc:" +inputSinhhoc);
 document.write('<br>')
 document.write("Diem trung binh =" + tbcong);
